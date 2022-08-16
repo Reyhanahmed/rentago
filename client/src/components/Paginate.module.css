@@ -1,0 +1,34 @@
+.pagination {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  bottom: 25px;
+  left: 360px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.paginate_users {
+  bottom: -40px;
+  left: 260px;
+}
+
+.pagination li {
+  display: inline-block;
+  height: 37px;
+  width: 37px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.pageNumber {
+  padding: 0 10px;
+}
+
+.active {
+  background-color: #21b074;
+  border-radius: 50%;
+  color: white;
+}
